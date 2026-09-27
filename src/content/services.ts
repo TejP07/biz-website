@@ -205,14 +205,3 @@ export const services: Service[] = [
   },
 ];
 
-/** Options used by the inquiry form's "Services needed" checkboxes. */
-export const serviceOptions = [
-  "Architectural drafting & documentation",
-  "Existing-condition / as-built drawings",
-  "Structural design coordination",
-  "MEP design coordination",
-  "Permit & approval support",
-  "Construction documentation",
-  "Design & engineering coordination",
-  "Not sure yet: help me define the scope",
-] as const;

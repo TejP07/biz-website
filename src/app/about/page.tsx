@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { withBasePath } from "@/lib/paths";
 import Link from "next/link";
 import { serviceAreas } from "@/content/service-areas";
 import { professionalNotice, site } from "@/content/site";
@@ -134,7 +135,7 @@ export default function AboutPage() {
                 {m.photo ? (
                   <div className="relative aspect-[4/5] overflow-hidden border border-line bg-paper-2">
                     <Image
-                      src={m.photo.src}
+                      src={withBasePath(m.photo.src)}
                       alt={m.photo.alt}
                       fill
                       sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"

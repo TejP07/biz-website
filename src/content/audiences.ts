@@ -65,12 +65,3 @@ export const audiences: Audience[] = [
   },
 ];
 
-/** Options used by the inquiry form's "I am a..." field. */
-export const clientRoleOptions = [
-  "Property owner",
-  "Contractor",
-  "Developer",
-  "Architect / design firm",
-  "Business / commercial tenant",
-  "Other",
-] as const;

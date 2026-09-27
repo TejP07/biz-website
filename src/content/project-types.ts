@@ -1,6 +1,6 @@
 /**
  * Project types. Used by the "Project Types" section on the home page and by
- * the inquiry form's "Project type" dropdown.
+ * the contact email template.
  */
 
 export type ProjectType = {
@@ -58,5 +58,3 @@ export const projectTypes: ProjectType[] = [
   },
 ];
 
-/** Options for the inquiry form. "Other" is appended for unlisted work. */
-export const projectTypeOptions = [...projectTypes.map((t) => t.label), "Other"] as const;

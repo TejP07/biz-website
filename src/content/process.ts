@@ -17,7 +17,7 @@ export const processSteps: ProcessStep[] = [
     number: "01",
     title: "Tell Us About Your Project",
     summary:
-      "Share the address, what you want to change or build, and any drawings or photos you already have. The inquiry form or a short call is enough to start.",
+      "Share the address, what you want to change or build, and any drawings or photos you already have. A short email or call is enough to start.",
     client: "Send the basics: location, goals, timeline, and any existing documents.",
     us: "Ask the follow-up questions that affect scope, cost, and approvals.",
     deliverable: "A clear, shared understanding of what the project involves.",

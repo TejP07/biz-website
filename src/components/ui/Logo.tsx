@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { withBasePath } from "@/lib/paths";
 import Link from "next/link";
 import { site } from "@/content/site";
 
@@ -20,7 +21,7 @@ export function Logo({ tone = "dark", showDescriptor = false, className = "" }: 
     <Link href="/" className={`group inline-flex items-center gap-3 ${className}`}>
       {imageSrc ? (
         <Image
-          src={imageSrc}
+          src={withBasePath(imageSrc)}
           alt={site.name}
           width={site.logo.width}
           height={site.logo.height}

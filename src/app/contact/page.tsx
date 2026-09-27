@@ -6,12 +6,12 @@ import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { Eyebrow } from "@/components/ui/SectionHeader";
 import { EmailLink, PhoneLink } from "@/components/ui/ContactValue";
 import { CheckIcon, MailIcon, PhoneIcon, PinIcon } from "@/components/ui/icons";
-import { ProjectInquiryForm } from "@/components/forms/ProjectInquiryForm";
+import { EmailInquiry } from "@/components/sections/EmailInquiry";
 
 export const metadata: Metadata = pageMetadata({
   title: "Start Your Project: Request a Quote",
   description:
-    "Tell us about your project to request a quote for drafting, construction documentation, structural and MEP coordination, or permit support. Upload existing drawings and get a written proposal.",
+    "Tell us about your project to request a quote for drafting, construction documentation, structural and MEP coordination, or permit support. Send existing drawings and get a written proposal.",
   path: "/contact",
 });
 
@@ -42,13 +42,13 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section aria-label="Project inquiry" className="py-12 lg:py-20">
+      <section aria-label="Email a project inquiry" className="py-12 lg:py-20">
         <div className="container-site grid gap-14 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-8">
-            <ProjectInquiryForm />
+            <EmailInquiry />
           </div>
 
-          <aside aria-label="About this form" className="lg:col-span-4">
+          <aside aria-label="Contact details and next steps" className="lg:col-span-4">
             <div className="space-y-10 lg:sticky lg:top-28">
               <div>
                 <h2 className="eyebrow text-muted">What happens next</h2>

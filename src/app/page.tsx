@@ -8,6 +8,7 @@ import { featuredProjects } from "@/content/projects";
 import { projectTypes } from "@/content/project-types";
 import { services } from "@/content/services";
 import { site } from "@/content/site";
+import { absoluteUrl } from "@/lib/seo";
 import { testimonials } from "@/content/trust";
 import { HomeHero } from "@/components/sections/HomeHero";
 import { CoordinationDiagram } from "@/components/sections/CoordinationDiagram";
@@ -26,7 +27,7 @@ import { ArrowRight, InfoIcon } from "@/components/ui/icons";
 export const metadata: Metadata = {
   title: { absolute: `${site.name} | Design Documentation & Engineering Coordination` },
   description: site.description,
-  alternates: { canonical: "/" },
+  alternates: { canonical: absoluteUrl("/") },
 };
 
 function TextLink({ href, children }: { href: string; children: ReactNode }) {

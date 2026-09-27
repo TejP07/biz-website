@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { withBasePath } from "@/lib/paths";
 import Link from "next/link";
 import { ButtonLink } from "@/components/ui/Button";
 import { ArrowRight } from "@/components/ui/icons";
@@ -57,7 +58,7 @@ export function HomeHero() {
           className="pointer-events-none relative -mx-[18%] -mt-2 sm:mx-auto sm:mt-4 sm:max-w-xl lg:absolute lg:-right-[12%] lg:top-8 lg:mt-0 lg:w-[68%] lg:max-w-none xl:-right-[1%] xl:top-6 xl:w-[58%] 2xl:-right-[3%] 2xl:w-[60%]"
         >
           <Image
-            src="/images/hero-drawing.svg"
+            src={withBasePath("/images/hero-drawing.svg")}
             alt=""
             width={1200}
             height={1000}

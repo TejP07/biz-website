@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { withBasePath } from "@/lib/paths";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { ProjectImage } from "@/content/projects";
 import { ChevronLeft, ChevronRight, CloseIcon, ExpandIcon } from "@/components/ui/icons";
@@ -56,7 +57,7 @@ export function ImageGallery({ images, title }: { images: ProjectImage[]; title:
               >
                 <span className="relative block aspect-[16/10]">
                   <Image
-                    src={img.src}
+                    src={withBasePath(img.src)}
                     alt={img.alt}
                     fill
                     sizes="(min-width: 1024px) 40vw, (min-width: 640px) 50vw, 100vw"
@@ -100,7 +101,7 @@ export function ImageGallery({ images, title }: { images: ProjectImage[]; title:
             </div>
             <div className="relative flex-1 px-4 pb-6 sm:px-16">
               <div className="relative h-full w-full">
-                <Image src={current.src} alt={current.alt} fill sizes="100vw" className="object-contain" />
+                <Image src={withBasePath(current.src)} alt={current.alt} fill sizes="100vw" className="object-contain" />
               </div>
               {images.length > 1 && (
                 <>

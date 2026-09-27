@@ -5,7 +5,7 @@ import { SiteFooter } from "@/components/layout/SiteFooter";
 import { RevealObserver } from "@/components/layout/RevealObserver";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { site } from "@/content/site";
-import { organizationSchema } from "@/lib/seo";
+import { absoluteUrl, defaultOgImage, organizationSchema } from "@/lib/seo";
 import "./globals.css";
 
 const inter = Inter({
@@ -33,26 +33,29 @@ const plexMono = IBM_Plex_Mono({
 const defaultTitle = `${site.name} | Design Documentation & Engineering Coordination`;
 
 export const metadata: Metadata = {
-  metadataBase: new URL(site.url),
+  // Trailing slash so relative metadata URLs keep any sub-folder in site.url.
+  metadataBase: new URL(`${site.url.replace(/\/+$/, "")}/`),
   title: {
     default: defaultTitle,
     template: `%s | ${site.name}`,
   },
   description: site.description,
   applicationName: site.name,
-  alternates: { canonical: "/" },
+  alternates: { canonical: absoluteUrl("/") },
   openGraph: {
     type: "website",
     locale: "en_US",
     siteName: site.name,
     title: defaultTitle,
     description: site.description,
-    url: "/",
+    url: absoluteUrl("/"),
+    images: [defaultOgImage],
   },
   twitter: {
     card: "summary_large_image",
     title: defaultTitle,
     description: site.description,
+    images: [defaultOgImage.url],
   },
   robots: site.allowIndexing
     ? { index: true, follow: true }

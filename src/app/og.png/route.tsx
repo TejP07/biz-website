@@ -3,15 +3,18 @@ import { join } from "node:path";
 import { ImageResponse } from "next/og";
 import { site } from "@/content/site";
 
-export const alt = `${site.name}: Design documentation & engineering coordination`;
-export const size = { width: 1200, height: 630 };
-export const contentType = "image/png";
+// Generated once at build time (required for static export).
+export const dynamic = "force-static";
+
+const size = { width: 1200, height: 630 };
 
 /**
- * Default social sharing image, generated at build time from site.ts.
+ * Default social sharing image (/og.png), generated at build time from site.ts.
+ * A route with a .png name (rather than the opengraph-image convention) so static
+ * hosts like GitHub Pages serve it with the correct image content type.
  * Fonts: Archivo (SIL Open Font License), bundled in src/assets/fonts.
  */
-export default async function OpengraphImage() {
+export async function GET() {
   const fontsDir = join(process.cwd(), "src/assets/fonts");
   const [semibold, regular] = await Promise.all([
     readFile(join(fontsDir, "Archivo-SemiBold.ttf")),

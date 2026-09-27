@@ -3,6 +3,9 @@ import { projects } from "@/content/projects";
 import { serviceAreas } from "@/content/service-areas";
 import { absoluteUrl } from "@/lib/seo";
 
+// Generated once at build time (required for static export).
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const staticRoutes: { path: string; priority: number; changeFrequency: "weekly" | "monthly" | "yearly" }[] = [
