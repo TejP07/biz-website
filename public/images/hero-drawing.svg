@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" width="1200" height="1000" aria-hidden="true">
+<line x1="625.8" y1="392" x2="191.4" y2="642.8" stroke="#6F86A0" stroke-width="0.7" stroke-dasharray="16 5 3 5" opacity="0.9"/>
+<line x1="757.5" y1="468" x2="323.1" y2="718.8" stroke="#6F86A0" stroke-width="0.7" stroke-dasharray="16 5 3 5" opacity="0.9"/>
+<line x1="889.1" y1="544" x2="454.7" y2="794.8" stroke="#6F86A0" stroke-width="0.7" stroke-dasharray="16 5 3 5" opacity="0.9"/>
+<line x1="1020.7" y1="620" x2="586.3" y2="870.8" stroke="#6F86A0" stroke-width="0.7" stroke-dasharray="16 5 3 5" opacity="0.9"/>
+<line x1="494.2" y1="392" x2="1060.2" y2="718.8" stroke="#6F86A0" stroke-width="0.7" stroke-dasharray="16 5 3 5" opacity="0.9"/>
+<line x1="362.5" y1="468" x2="928.6" y2="794.8" stroke="#6F86A0" stroke-width="0.7" stroke-dasharray="16 5 3 5" opacity="0.9"/>
+<line x1="230.9" y1="544" x2="796.9" y2="870.8" stroke="#6F86A0" stroke-width="0.7" stroke-dasharray="16 5 3 5" opacity="0.9"/>
+<line x1="237.5" y1="616.2" x2="369.1" y2="692.2" stroke="#6F86A0" stroke-width="0.7"/>
+<line x1="233.5" y1="620.2" x2="241.5" y2="612.2" stroke="#9FB3C8" stroke-width="1.2"/>
+<line x1="365.1" y1="696.2" x2="373.1" y2="688.2" stroke="#9FB3C8" stroke-width="1.2"/>
+<text x="289.3" y="674.2" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="400" letter-spacing="0.4" fill="#9FB3C8" text-anchor="middle">20'-0&quot;</text>
+<line x1="369.1" y1="692.2" x2="500.8" y2="768.2" stroke="#6F86A0" stroke-width="0.7"/>
+<line x1="365.1" y1="696.2" x2="373.1" y2="688.2" stroke="#9FB3C8" stroke-width="1.2"/>
+<line x1="496.8" y1="772.2" x2="504.8" y2="764.2" stroke="#9FB3C8" stroke-width="1.2"/>
+<text x="420.9" y="750.2" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="400" letter-spacing="0.4" fill="#9FB3C8" text-anchor="middle">20'-0&quot;</text>
+<line x1="500.8" y1="768.2" x2="632.4" y2="844.2" stroke="#6F86A0" stroke-width="0.7"/>
+<line x1="496.8" y1="772.2" x2="504.8" y2="764.2" stroke="#9FB3C8" stroke-width="1.2"/>
+<line x1="628.4" y1="848.2" x2="636.4" y2="840.2" stroke="#9FB3C8" stroke-width="1.2"/>
+<text x="552.6" y="826.2" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="400" letter-spacing="0.4" fill="#9FB3C8" text-anchor="middle">20'-0&quot;</text>
+<line x1="1014.1" y1="692.2" x2="882.5" y2="768.2" stroke="#6F86A0" stroke-width="0.7"/>
+<line x1="1010.1" y1="696.2" x2="1018.1" y2="688.2" stroke="#9FB3C8" stroke-width="1.2"/>
+<line x1="878.5" y1="772.2" x2="886.5" y2="764.2" stroke="#9FB3C8" stroke-width="1.2"/>
+<text x="962.3" y="750.2" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="400" letter-spacing="0.4" fill="#9FB3C8" text-anchor="middle">20'-0&quot;</text>
+<line x1="882.5" y1="768.2" x2="750.9" y2="844.2" stroke="#6F86A0" stroke-width="0.7"/>
+<line x1="878.5" y1="772.2" x2="886.5" y2="764.2" stroke="#9FB3C8" stroke-width="1.2"/>
+<line x1="746.9" y1="848.2" x2="754.9" y2="840.2" stroke="#9FB3C8" stroke-width="1.2"/>
+<text x="830.7" y="826.2" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="400" letter-spacing="0.4" fill="#9FB3C8" text-anchor="middle">20'-0&quot;</text>
+<path d="M954.9 658 L691.6 810 L691.6 803.2 L954.9 651.2 Z" fill="#0F1C2D" stroke="#B9CADC" stroke-width="1"/>
+<path d="M296.7 582 L691.6 810 L691.6 803.2 L296.7 575.2 Z" fill="#122033" stroke="#B9CADC" stroke-width="1"/>
+<path d="M560 423.2 L954.9 651.2 L691.6 803.2 L296.7 575.2 Z" fill="#15253A" fill-opacity="0.94" stroke="#B9CADC" stroke-width="1"/>
+<line x1="560" y1="423.2" x2="560" y2="331.2" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="428.4" y1="499.2" x2="428.4" y2="407.2" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="691.6" y1="499.2" x2="691.6" y2="407.2" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="560" y1="575.2" x2="560" y2="483.2" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="823.3" y1="575.2" x2="823.3" y2="483.2" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="691.6" y1="651.2" x2="691.6" y2="559.2" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<path d="M296.7 575.2 L691.6 803.2 L691.6 711.2 L296.7 483.2 Z" fill="#122033" fill-opacity="0.45" stroke="none"/>
+<path d="M954.9 651.2 L691.6 803.2 L691.6 711.2 L954.9 559.2 Z" fill="#0F1C2D" fill-opacity="0.55" stroke="none"/>
+<line x1="296.7" y1="575.2" x2="296.7" y2="483.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="329.6" y1="594.2" x2="329.6" y2="502.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="362.5" y1="613.2" x2="362.5" y2="521.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="395.5" y1="632.2" x2="395.5" y2="540.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="428.4" y1="651.2" x2="428.4" y2="559.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="461.3" y1="670.2" x2="461.3" y2="578.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="494.2" y1="689.2" x2="494.2" y2="597.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="527.1" y1="708.2" x2="527.1" y2="616.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="560" y1="727.2" x2="560" y2="635.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="592.9" y1="746.2" x2="592.9" y2="654.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="625.8" y1="765.2" x2="625.8" y2="673.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="658.7" y1="784.2" x2="658.7" y2="692.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="691.6" y1="803.2" x2="691.6" y2="711.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="954.9" y1="651.2" x2="954.9" y2="559.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="922" y1="670.2" x2="922" y2="578.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="889.1" y1="689.2" x2="889.1" y2="597.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="856.2" y1="708.2" x2="856.2" y2="616.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="823.3" y1="727.2" x2="823.3" y2="635.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="790.4" y1="746.2" x2="790.4" y2="654.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="757.5" y1="765.2" x2="757.5" y2="673.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="724.5" y1="784.2" x2="724.5" y2="692.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="691.6" y1="803.2" x2="691.6" y2="711.2" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="296.7" y1="575.2" x2="296.7" y2="483.2" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="428.4" y1="651.2" x2="428.4" y2="559.2" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="560" y1="727.2" x2="560" y2="635.2" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="691.6" y1="803.2" x2="691.6" y2="711.2" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="954.9" y1="651.2" x2="954.9" y2="559.2" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="823.3" y1="727.2" x2="823.3" y2="635.2" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="691.6" y1="803.2" x2="691.6" y2="711.2" stroke="#B9CADC" stroke-width="1.4"/>
+<path d="M954.9 559.2 L691.6 711.2 L691.6 704.4 L954.9 552.4 Z" fill="#0F1C2D" stroke="#B9CADC" stroke-width="1"/>
+<path d="M296.7 483.2 L691.6 711.2 L691.6 704.4 L296.7 476.4 Z" fill="#122033" stroke="#B9CADC" stroke-width="1"/>
+<path d="M560 324.4 L954.9 552.4 L691.6 704.4 L296.7 476.4 Z" fill="#15253A" fill-opacity="0.94" stroke="#B9CADC" stroke-width="1"/>
+<line x1="467.9" y1="377.6" x2="691.6" y2="506.8" stroke="#9FB3C8" stroke-width="1.1" opacity="0.8"/>
+<line x1="783.8" y1="453.6" x2="520.5" y2="605.6" stroke="#9FB3C8" stroke-width="1.1" opacity="0.8"/>
+<line x1="546.8" y1="423.2" x2="375.7" y2="522" stroke="#9FB3C8" stroke-width="1.1" opacity="0.8"/>
+<line x1="533.7" y1="506.8" x2="612.7" y2="552.4" stroke="#9FB3C8" stroke-width="1.1" opacity="0.8"/>
+<line x1="560" y1="324.4" x2="560" y2="232.4" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="428.4" y1="400.4" x2="428.4" y2="308.4" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="691.6" y1="400.4" x2="691.6" y2="308.4" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="560" y1="476.4" x2="560" y2="384.4" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="823.3" y1="476.4" x2="823.3" y2="384.4" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="691.6" y1="552.4" x2="691.6" y2="460.4" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<path d="M296.7 476.4 L691.6 704.4 L691.6 612.4 L296.7 384.4 Z" fill="#122033" fill-opacity="0.45" stroke="none"/>
+<path d="M954.9 552.4 L691.6 704.4 L691.6 612.4 L954.9 460.4 Z" fill="#0F1C2D" fill-opacity="0.55" stroke="none"/>
+<line x1="296.7" y1="476.4" x2="296.7" y2="384.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="329.6" y1="495.4" x2="329.6" y2="403.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="362.5" y1="514.4" x2="362.5" y2="422.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="395.5" y1="533.4" x2="395.5" y2="441.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="428.4" y1="552.4" x2="428.4" y2="460.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="461.3" y1="571.4" x2="461.3" y2="479.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="494.2" y1="590.4" x2="494.2" y2="498.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="527.1" y1="609.4" x2="527.1" y2="517.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="560" y1="628.4" x2="560" y2="536.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="592.9" y1="647.4" x2="592.9" y2="555.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="625.8" y1="666.4" x2="625.8" y2="574.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="658.7" y1="685.4" x2="658.7" y2="593.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="691.6" y1="704.4" x2="691.6" y2="612.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="954.9" y1="552.4" x2="954.9" y2="460.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="922" y1="571.4" x2="922" y2="479.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="889.1" y1="590.4" x2="889.1" y2="498.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="856.2" y1="609.4" x2="856.2" y2="517.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="823.3" y1="628.4" x2="823.3" y2="536.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="790.4" y1="647.4" x2="790.4" y2="555.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="757.5" y1="666.4" x2="757.5" y2="574.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="724.5" y1="685.4" x2="724.5" y2="593.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="691.6" y1="704.4" x2="691.6" y2="612.4" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="296.7" y1="476.4" x2="296.7" y2="384.4" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="428.4" y1="552.4" x2="428.4" y2="460.4" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="560" y1="628.4" x2="560" y2="536.4" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="691.6" y1="704.4" x2="691.6" y2="612.4" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="954.9" y1="552.4" x2="954.9" y2="460.4" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="823.3" y1="628.4" x2="823.3" y2="536.4" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="691.6" y1="704.4" x2="691.6" y2="612.4" stroke="#B9CADC" stroke-width="1.4"/>
+<path d="M954.9 460.4 L691.6 612.4 L691.6 605.6 L954.9 453.6 Z" fill="#162A42" stroke="#8DB4DC" stroke-width="1"/>
+<path d="M296.7 384.4 L691.6 612.4 L691.6 605.6 L296.7 377.6 Z" fill="#1A304B" stroke="#8DB4DC" stroke-width="1"/>
+<path d="M560 225.6 L954.9 453.6 L691.6 605.6 L296.7 377.6 Z" fill="#1E3654" fill-opacity="0.94" stroke="#8DB4DC" stroke-width="1"/>
+<line x1="454.7" y1="316.8" x2="796.9" y2="514.4" stroke="#8DB4DC" stroke-width="3"/>
+<line x1="586.3" y1="286.4" x2="402" y2="392.8" stroke="#8DB4DC" stroke-width="1.6"/>
+<path d="M586.3 281.4 L594.9 286.4 L586.3 291.4 L577.7 286.4 Z" fill="#1E3654" stroke="#8DB4DC" stroke-width="1"/>
+<path d="M402 387.8 L410.6 392.8 L402 397.8 L393.4 392.8 Z" fill="#1E3654" stroke="#8DB4DC" stroke-width="1"/>
+<line x1="718" y1="362.4" x2="533.7" y2="468.8" stroke="#8DB4DC" stroke-width="1.6"/>
+<path d="M718 357.4 L726.6 362.4 L718 367.4 L709.4 362.4 Z" fill="#1E3654" stroke="#8DB4DC" stroke-width="1"/>
+<path d="M533.7 463.8 L542.3 468.8 L533.7 473.8 L525.1 468.8 Z" fill="#1E3654" stroke="#8DB4DC" stroke-width="1"/>
+<line x1="849.6" y1="438.4" x2="665.3" y2="544.8" stroke="#8DB4DC" stroke-width="1.6"/>
+<path d="M849.6 433.4 L858.2 438.4 L849.6 443.4 L841 438.4 Z" fill="#1E3654" stroke="#8DB4DC" stroke-width="1"/>
+<path d="M665.3 539.8 L673.9 544.8 L665.3 549.8 L656.7 544.8 Z" fill="#1E3654" stroke="#8DB4DC" stroke-width="1"/>
+<line x1="560" y1="225.6" x2="560" y2="133.6" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="428.4" y1="301.6" x2="428.4" y2="209.6" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="691.6" y1="301.6" x2="691.6" y2="209.6" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="560" y1="377.6" x2="560" y2="285.6" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="823.3" y1="377.6" x2="823.3" y2="285.6" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<line x1="691.6" y1="453.6" x2="691.6" y2="361.6" stroke="#6F86A0" stroke-width="0.8" opacity="0.55"/>
+<path d="M296.7 377.6 L691.6 605.6 L691.6 513.6 L296.7 285.6 Z" fill="#122033" fill-opacity="0.45" stroke="none"/>
+<path d="M954.9 453.6 L691.6 605.6 L691.6 513.6 L954.9 361.6 Z" fill="#0F1C2D" fill-opacity="0.55" stroke="none"/>
+<line x1="296.7" y1="377.6" x2="296.7" y2="285.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="329.6" y1="396.6" x2="329.6" y2="304.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="362.5" y1="415.6" x2="362.5" y2="323.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="395.5" y1="434.6" x2="395.5" y2="342.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="428.4" y1="453.6" x2="428.4" y2="361.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="461.3" y1="472.6" x2="461.3" y2="380.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="494.2" y1="491.6" x2="494.2" y2="399.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="527.1" y1="510.6" x2="527.1" y2="418.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="560" y1="529.6" x2="560" y2="437.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="592.9" y1="548.6" x2="592.9" y2="456.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="625.8" y1="567.6" x2="625.8" y2="475.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="658.7" y1="586.6" x2="658.7" y2="494.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="691.6" y1="605.6" x2="691.6" y2="513.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="954.9" y1="453.6" x2="954.9" y2="361.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="922" y1="472.6" x2="922" y2="380.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="889.1" y1="491.6" x2="889.1" y2="399.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="856.2" y1="510.6" x2="856.2" y2="418.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="823.3" y1="529.6" x2="823.3" y2="437.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="790.4" y1="548.6" x2="790.4" y2="456.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="757.5" y1="567.6" x2="757.5" y2="475.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="724.5" y1="586.6" x2="724.5" y2="494.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="691.6" y1="605.6" x2="691.6" y2="513.6" stroke="#2B3F57" stroke-width="0.8"/>
+<line x1="296.7" y1="377.6" x2="296.7" y2="285.6" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="428.4" y1="453.6" x2="428.4" y2="361.6" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="560" y1="529.6" x2="560" y2="437.6" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="691.6" y1="605.6" x2="691.6" y2="513.6" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="954.9" y1="453.6" x2="954.9" y2="361.6" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="823.3" y1="529.6" x2="823.3" y2="437.6" stroke="#B9CADC" stroke-width="1.4"/>
+<line x1="691.6" y1="605.6" x2="691.6" y2="513.6" stroke="#B9CADC" stroke-width="1.4"/>
+<path d="M954.9 361.6 L691.6 513.6 L691.6 506.8 L954.9 354.8 Z" fill="#0F1C2D" stroke="#B9CADC" stroke-width="1"/>
+<path d="M296.7 285.6 L691.6 513.6 L691.6 506.8 L296.7 278.8 Z" fill="#122033" stroke="#B9CADC" stroke-width="1"/>
+<path d="M560 126.8 L954.9 354.8 L691.6 506.8 L296.7 278.8 Z" fill="#15253A" fill-opacity="0.94" stroke="#B9CADC" stroke-width="1"/>
+<line x1="296.7" y1="278.8" x2="296.7" y2="259" stroke="#B9CADC" stroke-width="1"/>
+<line x1="691.6" y1="506.8" x2="691.6" y2="487" stroke="#B9CADC" stroke-width="1"/>
+<line x1="954.9" y1="354.8" x2="954.9" y2="335" stroke="#B9CADC" stroke-width="1"/>
+<line x1="296.7" y1="259" x2="691.6" y2="487" stroke="#B9CADC" stroke-width="1"/>
+<line x1="691.6" y1="487" x2="954.9" y2="335" stroke="#B9CADC" stroke-width="1"/>
+<line x1="560" y1="107" x2="954.9" y2="335" stroke="#6F86A0" stroke-width="0.8" opacity="0.8"/>
+<line x1="560" y1="107" x2="296.7" y2="259" stroke="#6F86A0" stroke-width="0.8" opacity="0.8"/>
+<line x1="560" y1="126.8" x2="560" y2="107" stroke="#6F86A0" stroke-width="0.8" opacity="0.8"/>
+<circle cx="168.4" cy="656.1" r="14" fill="#0E1A2B" stroke="#B9CADC" stroke-width="1"/>
+<text x="168.4" y="660.6" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" letter-spacing="0" fill="#B9CADC" text-anchor="middle">A</text>
+<circle cx="300" cy="732.1" r="14" fill="#0E1A2B" stroke="#B9CADC" stroke-width="1"/>
+<text x="300" y="736.6" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" letter-spacing="0" fill="#B9CADC" text-anchor="middle">B</text>
+<circle cx="431.7" cy="808.1" r="14" fill="#0E1A2B" stroke="#B9CADC" stroke-width="1"/>
+<text x="431.7" y="812.6" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" letter-spacing="0" fill="#B9CADC" text-anchor="middle">C</text>
+<circle cx="563.3" cy="884.1" r="14" fill="#0E1A2B" stroke="#B9CADC" stroke-width="1"/>
+<text x="563.3" y="888.6" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" letter-spacing="0" fill="#B9CADC" text-anchor="middle">D</text>
+<circle cx="1083.3" cy="732.1" r="14" fill="#0E1A2B" stroke="#B9CADC" stroke-width="1"/>
+<text x="1083.3" y="736.6" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" letter-spacing="0" fill="#B9CADC" text-anchor="middle">1</text>
+<circle cx="951.6" cy="808.1" r="14" fill="#0E1A2B" stroke="#B9CADC" stroke-width="1"/>
+<text x="951.6" y="812.6" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" letter-spacing="0" fill="#B9CADC" text-anchor="middle">2</text>
+<circle cx="820" cy="884.1" r="14" fill="#0E1A2B" stroke="#B9CADC" stroke-width="1"/>
+<text x="820" y="888.6" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="600" letter-spacing="0" fill="#B9CADC" text-anchor="middle">3</text>
+<line x1="962.9" y1="658" x2="1010" y2="658" stroke="#6F86A0" stroke-width="0.7" stroke-dasharray="10 5"/>
+<circle cx="1020" cy="658" r="7" fill="#0E1A2B" stroke="#B9CADC" stroke-width="1"/>
+<path d="M1020 651 A7 7 0 0 1 1027 658 L1020 658 Z" fill="#B9CADC" stroke="none"/>
+<path d="M1020 665 A7 7 0 0 1 1013 658 L1020 658 Z" fill="#B9CADC" stroke="none"/>
+<text x="1036" y="655" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600" letter-spacing="1.2" fill="#B9CADC" text-anchor="start">LEVEL 01</text>
+<text x="1036" y="670" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" letter-spacing="0.5" fill="#9FB3C8" text-anchor="start">+0'-0&quot;</text>
+<line x1="962.9" y1="552.4" x2="1010" y2="552.4" stroke="#6F86A0" stroke-width="0.7" stroke-dasharray="10 5"/>
+<circle cx="1020" cy="552.4" r="7" fill="#0E1A2B" stroke="#B9CADC" stroke-width="1"/>
+<path d="M1020 545.36 A7 7 0 0 1 1027 552.36 L1020 552.36 Z" fill="#B9CADC" stroke="none"/>
+<path d="M1020 559.36 A7 7 0 0 1 1013 552.36 L1020 552.36 Z" fill="#B9CADC" stroke="none"/>
+<text x="1036" y="549.4" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600" letter-spacing="1.2" fill="#B9CADC" text-anchor="start">LEVEL 02</text>
+<text x="1036" y="564.4" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" letter-spacing="0.5" fill="#9FB3C8" text-anchor="start">+13'-0&quot;</text>
+<line x1="962.9" y1="453.6" x2="1010" y2="453.6" stroke="#6F86A0" stroke-width="0.7" stroke-dasharray="10 5"/>
+<circle cx="1020" cy="453.6" r="7" fill="#0E1A2B" stroke="#B9CADC" stroke-width="1"/>
+<path d="M1020 446.56000000000006 A7 7 0 0 1 1027 453.56000000000006 L1020 453.56000000000006 Z" fill="#B9CADC" stroke="none"/>
+<path d="M1020 460.56000000000006 A7 7 0 0 1 1013 453.56000000000006 L1020 453.56000000000006 Z" fill="#B9CADC" stroke="none"/>
+<text x="1036" y="450.6" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600" letter-spacing="1.2" fill="#B9CADC" text-anchor="start">LEVEL 03</text>
+<text x="1036" y="465.6" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" letter-spacing="0.5" fill="#9FB3C8" text-anchor="start">+26'-0&quot;</text>
+<line x1="962.9" y1="354.8" x2="1010" y2="354.8" stroke="#6F86A0" stroke-width="0.7" stroke-dasharray="10 5"/>
+<circle cx="1020" cy="354.8" r="7" fill="#0E1A2B" stroke="#B9CADC" stroke-width="1"/>
+<path d="M1020 347.76000000000005 A7 7 0 0 1 1027 354.76000000000005 L1020 354.76000000000005 Z" fill="#B9CADC" stroke="none"/>
+<path d="M1020 361.76000000000005 A7 7 0 0 1 1013 354.76000000000005 L1020 354.76000000000005 Z" fill="#B9CADC" stroke="none"/>
+<text x="1036" y="351.8" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600" letter-spacing="1.2" fill="#B9CADC" text-anchor="start">ROOF</text>
+<text x="1036" y="366.8" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" letter-spacing="0.5" fill="#9FB3C8" text-anchor="start">+39'-0&quot;</text>
+<line x1="665.3" y1="544.8" x2="990" y2="150" stroke="#8DB4DC" stroke-width="0.8"/>
+<circle cx="665.3" cy="544.8" r="3" fill="#8DB4DC" stroke="none"/>
+<line x1="990" y1="150" x2="1140" y2="150" stroke="#8DB4DC" stroke-width="0.8"/>
+<text x="994" y="142" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600" letter-spacing="1.4" fill="#8DB4DC" text-anchor="start">MEP COORDINATION</text>
+<text x="994" y="166" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" letter-spacing="0.6" fill="#9FB3C8" text-anchor="start">LICENSED MEP ENGINEERS</text>
+<line x1="823.3" y1="506" x2="990" y2="250" stroke="#9FB3C8" stroke-width="0.8"/>
+<circle cx="823.3" cy="506" r="3" fill="#9FB3C8" stroke="none"/>
+<line x1="990" y1="250" x2="1140" y2="250" stroke="#9FB3C8" stroke-width="0.8"/>
+<text x="994" y="242" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600" letter-spacing="1.4" fill="#B9CADC" text-anchor="start">STRUCTURAL GRID</text>
+<text x="994" y="266" font-family="'IBM Plex Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" font-weight="400" letter-spacing="0.6" fill="#9FB3C8" text-anchor="start">LICENSED STRUCT. ENGINEER</text>
+</svg>

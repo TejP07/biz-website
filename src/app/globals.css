@@ -1,0 +1,272 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   Design tokens
+   Neutral, paper-based palette with a deep navy and one muted blue
+   accent. Change brand colors here; every component uses these tokens.
+------------------------------------------------------------------- */
+@theme {
+  --color-paper: #f7f6f2;
+  --color-paper-2: #efede7;
+  --color-surface: #ffffff;
+  --color-ink: #141a22;
+  --color-ink-2: #36404c;
+  --color-muted: #56606c;
+  --color-line: #dcd8cf;
+  --color-line-strong: #bfb9ad;
+
+  --color-navy: #0e1a2b;
+  --color-navy-2: #13223a;
+  --color-navy-3: #1b2f4a;
+  --color-line-navy: #243a55;
+  --color-on-navy: #e9eef4;
+  --color-on-navy-muted: #a9b8c9;
+
+  --color-accent: #2f5b8a;
+  --color-accent-strong: #244a73;
+  --color-accent-soft: #e3eaf2;
+  --color-accent-light: #9cc0e4;
+
+  --color-danger: #a13a2e;
+  --color-danger-soft: #f7e9e6;
+  --color-success: #2e6a4e;
+  --color-success-soft: #e5f0ea;
+  --color-notice: #7a5a12;
+  --color-notice-soft: #f8f0dc;
+
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+
+  --animate-draw-in: draw-in 1.4s var(--ease-out-quart) both;
+
+  @keyframes draw-in {
+    from {
+      opacity: 0;
+      transform: translate3d(24px, 12px, 0) scale(0.985);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: var(--font-archivo), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+/* ------------------------------------------------------------------
+   Base
+------------------------------------------------------------------- */
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: 5.5rem;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  /* Large headings use Archivo's slightly condensed width; small ones stay at normal width. */
+  h1,
+  h2 {
+    font-stretch: 94%;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: #fff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 1px;
+  }
+
+  .on-dark :focus-visible,
+  [data-theme="dark"] :focus-visible {
+    outline-color: var(--color-accent-light);
+  }
+
+  /* Prevent iOS zoom on focus and keep form text consistent. */
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Utilities
+------------------------------------------------------------------- */
+@utility container-site {
+  width: 100%;
+  max-width: 82rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+  @media (width >= 40rem) {
+    padding-inline: 2rem;
+  }
+  @media (width >= 64rem) {
+    padding-inline: 2.5rem;
+  }
+}
+
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+@utility display-1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(2.6rem, 1.4rem + 5.2vw, 5.6rem);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+}
+
+@utility display-2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(2.25rem, 1.5rem + 3.4vw, 4.25rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+}
+
+@utility heading-2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.9rem, 1.35rem + 2.1vw, 3.1rem);
+  line-height: 1.06;
+  letter-spacing: -0.025em;
+}
+
+@utility heading-3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.2rem, 1.1rem + 0.35vw, 1.375rem);
+  line-height: 1.25;
+  letter-spacing: -0.008em;
+}
+
+@utility lead {
+  font-size: clamp(1.075rem, 1rem + 0.3vw, 1.25rem);
+  line-height: 1.6;
+}
+
+/* Faint drafting grid used behind page heroes. */
+@utility bg-drafting-grid {
+  background-image:
+    linear-gradient(to right, rgb(20 26 34 / 0.055) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(20 26 34 / 0.055) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+@utility bg-drafting-grid-dark {
+  background-image:
+    linear-gradient(to right, rgb(233 238 244 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(233 238 244 / 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* ------------------------------------------------------------------
+   Scroll reveal (progressive enhancement).
+   Elements marked data-reveal are only hidden when scripting is
+   available and the visitor has not asked for reduced motion.
+------------------------------------------------------------------- */
+@media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+  [data-reveal] {
+    transition:
+      opacity 0.7s var(--ease-out-quart),
+      transform 0.7s var(--ease-out-quart);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  html.js [data-reveal]:not([data-revealed]) {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+  }
+}
+
+/* ------------------------------------------------------------------
+   FAQ accordion (native details/summary)
+------------------------------------------------------------------- */
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+}
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+.faq-item .faq-icon-v {
+  transition: transform 0.25s var(--ease-out-quart);
+}
+.faq-item[open] .faq-icon-v {
+  transform: scaleY(0);
+}
+@supports (interpolate-size: allow-keywords) {
+  .faq-item {
+    interpolate-size: allow-keywords;
+  }
+  .faq-item::details-content {
+    block-size: 0;
+    overflow-y: clip;
+    transition:
+      block-size 0.3s var(--ease-out-quart),
+      content-visibility 0.3s allow-discrete;
+  }
+  .faq-item[open]::details-content {
+    block-size: auto;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .faq-item::details-content {
+    transition: none;
+  }
+}
+
+/* Hero drawing entrance */
+@media (prefers-reduced-motion: no-preference) {
+  .hero-drawing {
+    animation: var(--animate-draw-in);
+    animation-delay: 0.15s;
+  }
+}
+
+@keyframes menu-in {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -6px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
