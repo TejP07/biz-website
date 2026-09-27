@@ -21,11 +21,13 @@ const archivo = Archivo({
   display: "swap",
 });
 
+// Used only for small labels, so it isn't preloaded.
 const plexMono = IBM_Plex_Mono({
   subsets: ["latin"],
   weight: ["400", "500"],
   variable: "--font-plex-mono",
   display: "swap",
+  preload: false,
 });
 
 const defaultTitle = `${site.name} | Design Documentation & Engineering Coordination`;

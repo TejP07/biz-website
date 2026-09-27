@@ -72,10 +72,12 @@ export function GroupShell({
   hint,
   error,
   children,
+  showOptional = true,
   className = "",
 }: {
   id: string;
   legend: string;
+  showOptional?: boolean;
   required?: boolean;
   hint?: string;
   error?: string;
@@ -101,7 +103,7 @@ export function GroupShell({
           )}
           {required && <span className="sr-only"> (required)</span>}
         </span>
-        {!required && <span className="text-xs font-normal text-muted">Optional</span>}
+        {!required && showOptional && <span className="text-xs font-normal text-muted">Optional</span>}
       </legend>
       {hint && (
         <p id={`${id}-hint`} className="mt-1 text-sm text-muted">

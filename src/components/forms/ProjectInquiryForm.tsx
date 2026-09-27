@@ -391,10 +391,11 @@ export function ProjectInquiryForm() {
 
       <FormSection number="03" title="Existing documents">
         <p className="-mt-2 text-sm text-muted sm:col-span-2">
-          Existing drawings help us scope accurately. It&apos;s fine if you don&apos;t have them.
+          These questions are optional. Existing drawings help us scope accurately, but it&apos;s
+          fine if you don&apos;t have them.
         </p>
         {documentQuestions.map((q) => (
-          <GroupShell key={q.name} id={q.name} legend={`Do you have ${q.label.charAt(0).toLowerCase()}${q.label.slice(1)}`} error={errorFor(q.name)}>
+          <GroupShell key={q.name} id={q.name} legend={q.label} showOptional={false} error={errorFor(q.name)}>
             <div className="grid grid-cols-3 gap-2">
               {documentAnswers.map((a) => {
                 const checked = values[q.name] === a.value;

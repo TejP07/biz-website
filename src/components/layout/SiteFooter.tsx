@@ -36,10 +36,10 @@ export function SiteFooter() {
 
         <nav aria-label="Services" className="md:col-span-5 lg:col-span-3">
           <p className="eyebrow text-muted">Services</p>
-          <ul className="mt-5 space-y-3 text-[0.9375rem]">
+          <ul className="mt-4 space-y-1 text-[0.9375rem]">
             {services.map((s) => (
               <li key={s.slug}>
-                <Link href={`/services#${s.slug}`} className="text-ink-2 transition-colors hover:text-accent">
+                <Link href={`/services#${s.slug}`} className="inline-block py-1.5 text-ink-2 transition-colors hover:text-accent">
                   {s.title}
                 </Link>
               </li>
@@ -49,10 +49,10 @@ export function SiteFooter() {
 
         <nav aria-label="Company" className="md:col-span-3 lg:col-span-2">
           <p className="eyebrow text-muted">Company</p>
-          <ul className="mt-5 space-y-3 text-[0.9375rem]">
+          <ul className="mt-4 space-y-1 text-[0.9375rem]">
             {companyNav.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="text-ink-2 transition-colors hover:text-accent">
+                <Link href={item.href} className="inline-block py-1.5 text-ink-2 transition-colors hover:text-accent">
                   {item.label}
                 </Link>
               </li>
@@ -97,7 +97,7 @@ export function SiteFooter() {
             <ul className="flex gap-6">
               {legalNav.map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href} className="hover:text-accent">
+                  <Link href={item.href} className="inline-block py-1.5 hover:text-accent">
                     {item.label}
                   </Link>
                 </li>

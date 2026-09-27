@@ -5,6 +5,7 @@
  * Answers are written to avoid legal or licensing claims. If your company or
  * team holds specific licenses, you can update the relevant answers.
  */
+import { site } from "./site";
 
 export type Faq = {
   question: string;
@@ -141,7 +142,7 @@ export const faqs: Faq[] = [
     question: "What areas do you serve?",
     category: "Getting Started",
     answer: [
-      "We're based in [PRIMARY SERVICE AREA] and work on projects throughout [STATE / REGION]. Contact us about projects outside that area.",
+      `We're based in ${site.serviceArea.primary} and work on projects throughout ${site.serviceArea.region}. Contact us about projects outside that area.`,
     ],
   },
   {
@@ -149,6 +150,7 @@ export const faqs: Faq[] = [
     category: "Getting Started",
     answer: [
       "Yes. Contractors, developers, and design firms can use us for ongoing drafting, documentation, and coordination support. We can work in your drawing standards, title blocks, and templates and follow your review process.",
+      `Our production software: ${site.software}.`,
     ],
   },
 ];

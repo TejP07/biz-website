@@ -88,9 +88,12 @@ export function SiteHeader() {
       className={`sticky top-0 z-50 transition-[background-color,border-color,box-shadow] duration-300 ${
         dark
           ? "border-b border-transparent bg-navy text-on-navy"
-          : `border-b border-line bg-paper/95 text-ink backdrop-blur-md supports-[backdrop-filter]:bg-paper/92 ${
-              scrolled ? "shadow-[0_1px_0_rgb(20_26_34/0.04),0_8px_24px_-12px_rgb(20_26_34/0.12)]" : ""
-            }`
+          : open
+            ? // No backdrop-filter while the menu is open: it would become the containing block for the fixed panel.
+              "border-b border-line bg-paper text-ink"
+            : `border-b border-line bg-paper/95 text-ink backdrop-blur-md supports-[backdrop-filter]:bg-paper/92 ${
+                scrolled ? "shadow-[0_1px_0_rgb(20_26_34/0.04),0_8px_24px_-12px_rgb(20_26_34/0.12)]" : ""
+              }`
       }`}
     >
       <div className="container-site flex h-16 items-center justify-between gap-6 lg:h-[4.5rem]">
@@ -122,12 +125,11 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Link
-            href={primaryCta.href}
-            className={`hidden sm:inline-flex ${buttonClasses(dark ? "inverse" : "primary", "sm")}`}
-          >
-            {primaryCta.label}
-          </Link>
+          <div className="hidden sm:block">
+            <Link href={primaryCta.href} className={buttonClasses(dark ? "inverse" : "primary", "sm")}>
+              {primaryCta.label}
+            </Link>
+          </div>
           <button
             ref={toggleRef}
             type="button"

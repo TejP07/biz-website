@@ -45,7 +45,7 @@ export function ProjectGrid({
 
   return (
     <div>
-      <div className="flex flex-col gap-4 border-b border-line pb-6 lg:flex-row lg:items-center lg:justify-between">
+      <div className="flex flex-col gap-4 border-b border-line pb-6">
         <div
           role="group"
           aria-label="Filter projects by category"

@@ -47,24 +47,26 @@ export default function ServicesPage() {
 
       {/* Service index */}
       <nav aria-label="Service index" className="border-b border-line bg-paper-2">
-        <ul className="container-site grid grid-cols-2 gap-px bg-line py-px sm:grid-cols-3 lg:grid-cols-6">
-          {services.map((s, i) => (
-            <li key={s.slug} className="bg-paper-2">
-              <Link
-                href={`#${s.slug}`}
-                className="group flex h-full flex-col gap-3 px-4 py-5 transition-colors hover:bg-paper"
-              >
-                <span className="flex items-center justify-between">
-                  <ServiceIcon name={s.icon} size={28} className="text-ink" />
-                  <span className="eyebrow text-muted">{String(i + 1).padStart(2, "0")}</span>
-                </span>
-                <span className="text-sm font-medium leading-snug text-ink group-hover:text-accent">
-                  {s.title}
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <div className="container-site">
+          <ul className="grid grid-cols-2 gap-px border-x border-line bg-line sm:grid-cols-3 lg:grid-cols-6">
+            {services.map((s, i) => (
+              <li key={s.slug} className="bg-paper-2">
+                <Link
+                  href={`#${s.slug}`}
+                  className="group flex h-full flex-col gap-3 px-4 py-5 transition-colors hover:bg-paper"
+                >
+                  <span className="flex items-center justify-between">
+                    <ServiceIcon name={s.icon} size={28} className="text-ink" />
+                    <span className="eyebrow text-muted">{String(i + 1).padStart(2, "0")}</span>
+                  </span>
+                  <span className="text-sm font-medium leading-snug text-ink group-hover:text-accent">
+                    {s.title}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
       </nav>
 
       <div className="container-site">

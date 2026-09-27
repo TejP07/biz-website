@@ -68,12 +68,12 @@ export function ProcessTimeline({
 
 function DetailedTimeline({ steps }: { steps: ProcessStep[] }) {
   return (
-    <ol className="border-t border-line">
+    <ol>
       {steps.map((step) => (
         <li
           key={step.number}
           data-reveal
-          className="grid gap-8 border-b border-line py-12 lg:grid-cols-12 lg:gap-12 lg:py-16"
+          className="grid gap-8 border-b border-line py-12 last:border-b-0 lg:grid-cols-12 lg:gap-12 lg:py-16"
         >
           <div className="lg:col-span-5">
             <div className="flex items-center gap-5">

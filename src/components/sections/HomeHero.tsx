@@ -27,7 +27,7 @@ export function HomeHero() {
       />
 
       <div className="container-site relative">
-        <div className="relative z-10 pb-4 pt-14 sm:pt-20 lg:max-w-[36rem] lg:pb-24 lg:pt-28 xl:max-w-[40rem]">
+        <div className="relative z-10 pb-4 pt-14 sm:pt-20 lg:max-w-[31rem] lg:pb-24 lg:pt-28 xl:max-w-[40rem]">
           <h1 id="hero-heading">
             <span className="eyebrow flex items-center gap-3 text-on-navy-muted">
               <span aria-hidden="true" className="h-px w-8 bg-accent-light/60" />
@@ -54,14 +54,13 @@ export function HomeHero() {
         {/* Architectural illustration: in flow on mobile, positioned right on desktop */}
         <div
           aria-hidden="true"
-          className="pointer-events-none relative -mx-[18%] -mt-2 sm:-mx-[6%] lg:absolute lg:-right-[8%] lg:top-6 lg:mx-0 lg:mt-0 lg:w-[66%] xl:-right-[4%] xl:w-[62%]"
+          className="pointer-events-none relative -mx-[18%] -mt-2 sm:mx-auto sm:mt-4 sm:max-w-xl lg:absolute lg:-right-[12%] lg:top-8 lg:mt-0 lg:w-[68%] lg:max-w-none xl:-right-[1%] xl:top-6 xl:w-[58%] 2xl:-right-[3%] 2xl:w-[60%]"
         >
           <Image
             src="/images/hero-drawing.svg"
             alt=""
             width={1200}
             height={1000}
-            fetchPriority="high"
             loading="eager"
             className="hero-drawing h-auto w-full"
           />

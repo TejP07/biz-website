@@ -17,15 +17,11 @@ export function Logo({ tone = "dark", showDescriptor = false, className = "" }: 
   const imageSrc = onDark ? site.logo.srcOnDark ?? site.logo.src : site.logo.src;
 
   return (
-    <Link
-      href="/"
-      className={`group inline-flex items-center gap-3 ${className}`}
-      aria-label={`${site.name}, home`}
-    >
+    <Link href="/" className={`group inline-flex items-center gap-3 ${className}`}>
       {imageSrc ? (
         <Image
           src={imageSrc}
-          alt=""
+          alt={site.name}
           width={site.logo.width}
           height={site.logo.height}
           preload
@@ -54,6 +50,7 @@ export function Logo({ tone = "dark", showDescriptor = false, className = "" }: 
           </span>
         </>
       )}
+      <span className="sr-only"> (home page)</span>
     </Link>
   );
 }

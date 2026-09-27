@@ -23,10 +23,10 @@ export const timelineOptions = [
 ] as const;
 
 export const documentQuestions = [
-  { name: "existingDrawings", label: "Existing drawings of the building or space?" },
-  { name: "architecturalPlans", label: "Architectural plans?" },
-  { name: "structuralPlans", label: "Structural plans?" },
-  { name: "mepPlans", label: "MEP plans?" },
+  { name: "existingDrawings", label: "Do you have existing drawings?" },
+  { name: "architecturalPlans", label: "Do you have architectural plans?" },
+  { name: "structuralPlans", label: "Do you have structural plans?" },
+  { name: "mepPlans", label: "Do you have MEP plans?" },
 ] as const;
 
 export const documentAnswers = [
